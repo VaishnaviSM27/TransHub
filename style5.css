@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Playfair Display;
+}
+
+.dhciy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("image/book1.jpg"); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.header-content {
+    display: flex;
+}
+
+.hero-content p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    color: darkslategrey;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.hero-text p {
+    width: 100%;
+    max-width: 640px;
+    margin-top: 1.5rem;
+    box-sizing: border-box;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 33px;
+    background: text rgb(197, 91, 181);
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+}
+
+.transhub-title {
+    background-color: #F0EFFF;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    color: color(from color srgb r g b);
+}
+
+.transhub-title h1 {
+    margin-bottom: 1px;
+}
+
+.transhub-title span {
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav button {
+    background-color: plum;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #d67bba;
+}
+
+main {
+    padding: 20px;
+}
+
+.search-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-container h2 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.search-container form {
+    display: flex;
+    width: 70%;
+}
+
+.search-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    flex-grow: 1;
+}
+
+.search-container button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

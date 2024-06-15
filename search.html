@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TransHub - TransBookshelf</title>
+    <link rel="stylesheet" href="style5.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="image/logo.png" alt="TransHub Logo">
+        </div>
+    </header>
+    <section class="transhub-title">
+        <h1>TransHub</h1>
+        <span>Your Journey, Our Priority</span>
+    </section>
+    <nav>
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='index.html#aboutUsSection'">About</button>
+        <button onclick="window.location.href='index.html#servicesSection'">Features</button>
+        <button onclick="window.location.href='contact.html'">Contact</button>
+    </nav>
+    <main>
+        <section class="search-container">
+            <h2>TransBookshelf</h2>
+            <p>Search for books of your choice</p>
+            <div>
+                <input type="text" id="bookSearch" placeholder="Enter book title or keyword">
+                <button onclick="searchBook()">Search</button>
+            </div>
+        </section>
+    </main>
+    <script>
+        function searchBook() {
+            const bookTitle = document.getElementById('bookSearch').value;
+            //  Encode user input to be safe for URLs
+            const encodedTitle = encodeURIComponent(bookTitle);
+            const googleSearchUrl = `https://www.google.com/search?q=${encodedTitle}`;
+            window.location.href = googleSearchUrl;
+        }
+        
+    </script>
+</body>
+</html>

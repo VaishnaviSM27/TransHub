@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    font-family: Playfair Display;
+    margin: 0;
+    padding: 0;
+  }
+/* Apply styles to body and HTML to fill the viewport */
+html, body {
+    height: 100%;
+}
+body {
+    
+
+    
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header { /* Reduce header height and remove background color */
+    display: flex; /* Make header elements display inline */
+    align-items: center; /* Align content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 10px; /* Reduce padding for a smaller header */
+   
+}
+
+.header-content {
+    display: flex; /* Allow logo to be displayed inline */
+}
+.hero-content p {
+    font-weight: bold; /* Make the text bold */
+    font-family:Arial, Helvetica, sans-serif ;
+    display:inline-block;
+    color: darkslategrey;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+.hero-text p {
+    width: 100%;
+    max-width: 640px;
+    margin-top: 1.5rem;
+    box-sizing: border-box;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 33px;
+    background: text rgb(197, 91, 181);
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+header img { /* Style the logo */
+   /* margin: 0; /* Remove default margin from the logo */
+    width: 100px; /* Adjust logo width as needed */
+}
+
+.transhub-title { /* Apply background color and styling to the combined section */
+    background-color: #F0EFFF;
+    padding: 15px;
+    text-align: center; /* Center text within the section */
+    margin-bottom: 20px; /* Add spacing before buttons */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    color: color(from color srgb r g b);
+}
+
+.transhub-title h1 { /* Style the heading */
+    margin-bottom: 1px; /* Add spacing between heading and text */
+}
+
+.transhub-title span { /* Style the subheading */
+    font-weight: bold; /* Apply bold weight for emphasis */
+}
+
+
+
+h1 {
+    margin-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav button {
+    background-color:plum ;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+}
+
+nav button:hover {
+    background-color: #d67bba;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+  display:flex;
+}
+
+.hero-text {
+  flex: 1;
+  text-align: justify;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.square-fit-image {
+    width: 100%; /* Make the image width 100% to fill its container */
+    height: auto; /* Allow the height to adjust proportionally */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    max-width: 420px; /* Limit the maximum width of the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.hero-content {
+  display: flex;
+}
+
+
+.hero p:first-child {
+  margin-bottom: 10px;
+}
+
+.hero img {
+  border-radius: 50%;
+  margin-right: 20px; /* Add space between image and text */
+}
+
+footer {
+    background-color: #add1f1;
+    text-align: center;
+    padding: 10px;
+}
+.start-discussion {
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.category {
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.category p {
+    color: #666;
+}
+.ngo-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ngo-links ul li {
+    margin: 10px 0;
+}
+
+.ngo-links ul li a {
+    color: #ff3385;
+    text-decoration: none;
+}
+
+.ngo-links ul li a:hover {
+    text-decoration: underline;
+}
+.contact-link {
+    color: #ff3385; /* Set your desired color */
+    text-decoration: underline;
+}
+
+.contact-link:hover {
+    color: #d67bba; /* Set hover color */
+}
+
+.highlight-text {
+    color: #ff3385; /* Set your desired color */
+}

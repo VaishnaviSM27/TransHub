@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    margin: 50px auto; /* Center the form horizontally */
+    width: 400px; /* Set a width for the form */
+    padding: 20px; /* Add some padding inside the form */
+    border-radius: 5px; /* Add rounded corners to the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+#contact-section {
+    text-align: center; /* Center the text within the form section */
+}
+
+h2 {
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Add space between form fields */
+}
+
+label {
+    display: block; /* Make labels appear on separate lines */
+    margin-bottom: 5px; /* Add some space below the label */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%; /* Make input fields full width */
+    padding: 10px; /* Add padding to input fields */
+    border: 1px solid #ccc; /* Add a border to input fields */
+    border-radius: 3px; /* Add rounded corners to input fields */
+    box-sizing: border-box; /* Include padding in the input field width */
+}
+
+textarea {
+    height: 100px; /* Set a height for the message textarea */
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* Green color for the submit button */
+    color: white; /* White text color for the submit button */
+    padding: 10px 20px; /* Add padding to the submit button */
+    border: none; /* Remove border from the submit button */
+    border-radius: 3px; /* Add rounded corners to the submit button */
+    cursor: pointer; /* Make the submit button look clickable */
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Change button color on hover */
+}

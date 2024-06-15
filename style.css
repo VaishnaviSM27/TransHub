@@ -1,0 +1,255 @@
+/* Style your buttons here */
+
+
+
+  * {
+    box-sizing: border-box;
+    font-family: Playfair Display;
+    margin: 0;
+    padding: 0;
+  }
+/* Apply styles to body and HTML to fill the viewport */
+html, body {
+    height: 100%;
+}
+body {
+    
+
+    
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header { /* Reduce header height and remove background color */
+    display: flex; /* Make header elements display inline */
+    align-items: center; /* Align content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 10px; /* Reduce padding for a smaller header */
+   
+}
+
+.header-content {
+    display: flex; /* Allow logo to be displayed inline */
+}
+.hero-content p {
+    font-weight: bold; /* Make the text bold */
+    font-family:Arial, Helvetica, sans-serif ;
+    display:inline-block;
+    color: darkslategrey;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+.hero-text p {
+    width: 100%;
+    max-width: 640px;
+    margin-top: 1.5rem;
+    box-sizing: border-box;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 33px;
+    background: text rgb(197, 91, 181);
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+header img { /* Style the logo */
+   /* margin: 0; /* Remove default margin from the logo */
+    width: 100px; /* Adjust logo width as needed */
+}
+
+.transhub-title { /* Apply background color and styling to the combined section */
+    background-color: #F0EFFF;
+    padding: 15px;
+    text-align: center; /* Center text within the section */
+    margin-bottom: 20px; /* Add spacing before buttons */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    color: color(from color srgb r g b);
+}
+
+.transhub-title h1 { /* Style the heading */
+    margin-bottom: 1px; /* Add spacing between heading and text */
+}
+
+.transhub-title span { /* Style the subheading */
+    font-weight: bold; /* Apply bold weight for emphasis */
+}
+
+
+
+h1 {
+    margin-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav button {
+    background-color:plum ;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+}
+
+nav button:hover {
+    background-color: #d67bba;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+  display:flex;
+}
+
+.hero-text {
+  flex: 1;
+  text-align: justify;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.square-fit-image {
+    width: 100%; /* Make the image width 100% to fill its container */
+    height: auto; /* Allow the height to adjust proportionally */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    max-width: 420px; /* Limit the maximum width of the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.hero-content {
+  display: flex;
+}
+
+
+.hero p:first-child {
+  margin-bottom: 10px;
+}
+
+.hero img {
+  border-radius: 50%;
+  margin-right: 20px; /* Add space between image and text */
+}
+
+footer {
+    background-color: #add1f1;
+    text-align: center;
+    padding: 10px;
+}
+
+/* About Us Section Styles */
+
+/* Your existing CSS styles */
+
+.about-us {
+    margin: 112px auto; /* Center the section horizontally with top and bottom margins */
+    padding: 64px;
+    background: linear-gradient(rgb(255, 255, 255) 0px, rgb(255, 255, 255) 0px) padding-box padding-box, linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red) border-box border-box;
+    border: 3px solid transparent;
+    border-radius: 29px;
+    overflow: hidden;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    max-width: 800px; /* Set a maximum width for the content */
+    margin: auto; /* Center the content horizontally */
+    
+}
+
+.about-text {
+    flex: 1; 
+    /* Allow the text to take up remaining space */
+   
+}
+
+.about-text h2 {
+    margin-bottom: 10px; /* Spacing between heading and text */
+    
+}
+
+.about-text p {
+    margin-bottom: 15px; /* Adjust paragraph spacing */
+    line-height: 1.5; /* Increase line spacing for readability */
+   
+}
+
+.services {
+    text-align: center; /* Center text within the section */
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap; /* Services wrap if needed */
+    justify-content: space-between; /* Even distribution with spacing */
+}
+
+.service {
+    width: 30%; /* Adjust width as needed */
+    background-color: #F0EFFF; /* Replace with desired background color */
+    padding: 20px;
+    margin-bottom: 20px; /* Add spacing for a grid-like layout */
+}
+
+.service img {
+    max-width: 100%;
+}
+
+.service h3 {
+    font-family: Arial, sans-serif;
+    color: #333; /* Replace with desired text color */
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 14px; /* Adjust font size as needed */
+    color: #666; /* Replace with desired text color */
+    margin-bottom: 15px;
+}
+
+.learn-more {
+    background-color: #0095FF; /* Replace with desired background color */
+    color: #FFF; /* Replace with desired text color */
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.contact-us {
+    text-align: left; /* Left-align contact details */
+}
+
+.contact-us ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-us li {
+    margin-bottom: 10px;
+}
+
+.contact-us i {
+    margin-right: 10px;
+    color: #0095FF; /* Replace with desired icon color */
+    font-size: 18px; /* Adjust icon size as needed */
+}
